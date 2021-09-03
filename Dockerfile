@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:11
 MAINTAINER Aubin Custodio (Guezone)
 RUN apt update && apt install -y vim apache2 nano python3 git python3-pip libapache2-mod-wsgi-py3 net-tools dnsutils openssh-server openssl
 RUN service apache2 stop
