@@ -1,7 +1,7 @@
 Jinja2==3.0.1
 Werkzeug==1.0.1
 Flask_SQLAlchemy==2.4.4
-requests==2.22.0
+requests==2.32.2
 colorama==0.4.3
 tweepy==3.8.0
 openpyxl==3.0.5
@@ -12,3 +12,6 @@ feedparser==5.2.1
 beautifulsoup4==4.9.3
 flask_simplelogin==0.0.7
 python-dateutil
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
